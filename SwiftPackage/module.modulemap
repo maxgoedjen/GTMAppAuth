@@ -1,0 +1,7 @@
+module GTMAppAuth {
+    header "../GTMAppAuth.h"
+    header "../GTMAppAuthFetcherAuthorization.h"
+    header "../GTMAppAuthFetcherAuthorization+Keychain.h"
+    header "../GTMKeychain.h"
+    export *
+}
