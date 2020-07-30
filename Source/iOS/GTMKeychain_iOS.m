@@ -16,7 +16,7 @@
         limitations under the License.
  */
 
-#import "GTMKeychain.h"
+#import "../GTMKeychain.h"
 
 #import <Security/Security.h>
 

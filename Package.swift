@@ -17,12 +17,14 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/google/gtm-session-fetcher.git", from: "1.4.0")
+        .package(url: "https://github.com/openid/AppAuth-iOS.git", from: "1.4.0"),
+        .package(url: "https://github.com/google/gtm-session-fetcher.git", from: "1.4.0"),
     ],
     targets: [
         .target(
             name: "GTMAppAuth",
             dependencies: [
+                "AppAuth",
                 "GTMSessionFetcher"
             ],
             path: "Source",
