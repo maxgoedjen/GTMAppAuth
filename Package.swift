@@ -16,6 +16,9 @@ let package = Package(
             targets: ["GTMAppAuth"]
         ),
     ],
+    dependencies: [
+        .package(url: "https://github.com/google/gtm-session-fetcher.git", from: "1.4.0")
+    ],
     targets: [
         .target(
             name: "GTMAppAuth",
