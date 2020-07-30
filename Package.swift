@@ -22,6 +22,9 @@ let package = Package(
     targets: [
         .target(
             name: "GTMAppAuth",
+            dependencies: [
+                "GTMSessionFetcher"
+            ],
             path: "Source",
             sources:[
                 "GTMAppAuth.h",
