@@ -19,7 +19,7 @@
 #import "GTMAppAuthFetcherAuthorization.h"
 
 #ifndef GTMAPPAUTH_USER_IMPORTS
-@import AppAuth;
+@import AppAuthCore;
 #else // GTMAPPAUTH_USER_IMPORTS
 #import "AppAuthCore.h"
 #endif // GTMAPPAUTH_USER_IMPORTS
