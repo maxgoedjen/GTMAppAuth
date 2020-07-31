@@ -17,7 +17,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/maxgoedjen/AppAuth-iOS.git", branch: "nullability"),
+        .package(url: "https://github.com/maxgoedjen/AppAuth-iOS.git", .branch("nullability")),
         .package(url: "https://github.com/google/gtm-session-fetcher.git", from: "1.4.0"),
     ],
     targets: [
